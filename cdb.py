@@ -36,7 +36,7 @@ def calcula_cdb(rendimento_do_cdi, cdi, montante_atual, aportes_mensais, meses):
 
 # Exemplo de uso
 aportes = [2600, 2800, 2800, 2800, 2800, 2800, 2800, 2800, 2800, 2800, 2800, 2800, 2800]
-valores = calcula_cdb(100, 12.15, 1936, aportes, 13)
+valores = calcula_cdb(101, 12.15, 1936, aportes, 13)
 
 print(f"Montante: {valores[0]:.2f}")
 print(f"Investido: {(valores[0] - valores[1]):.2f}")
